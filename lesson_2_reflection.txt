@@ -8,13 +8,28 @@ commits to be stored.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+    A working directory is a part of the filesystem that shows the current state
+of the code being worked on. Being separate from the repository provides a location
+where you can work on the code separately from the committed files.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+    By only adding files related to the current change to the staging area, each
+commit can be broken up based on the type of changes being made.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches would be helpful when two different developers are working on
+different parts of the same codebase and don't want to get into each other's way.
+It is also helpful when you want to make experimental changes without impacting
+the trunk branch of the project.
+
 How do the diagrams help you visualize the branch structure?
+
+    Providing a tree structure helps to visualize which commits are branches of
+a which, and where there are common commits that branch off into multuple branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

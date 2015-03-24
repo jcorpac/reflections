@@ -34,5 +34,12 @@ a which, and where there are common commits that branch off into multuple branch
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Merging two branches allows experimental changes or side updaates to be added
+to the main trunk of the program. We represent it in the diagram to show that two
+branches of the application are merging.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    Manual merging is a pain in the ass, and it's faster to resolve conflicts
+automatically when possible rather than having to devote attention to each one.

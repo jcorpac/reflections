@@ -30,3 +30,10 @@ branch to compare itself to what it thinks that the repository looks like. This
 helps to make sure that the master branch remains as current as possible, even if
 the branch is being stored offline.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+    Collaboration would be significantly harder as I would have to coordinate changes
+with the people that I'm collaborating with manually, and we could only have a small 
+number of code folders to keep changes consistent.
+

@@ -37,3 +37,10 @@ would be harder?
 with the people that I'm collaborating with manually, and we could only have a small 
 number of code folders to keep changes consistent.
 
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+    Making changes to a branch is more appropriate when the changes are incomplete
+or have to do with features that might interfere with code that other people are
+working on.
+

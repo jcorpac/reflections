@@ -22,3 +22,11 @@ into the original project if the user has permission. A branch is an offshoot of
 a single project intended for creating experimental features, or adding changes
 without changing the master branch.
 
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+    Having a copy of the last-known state of the remote allows the current master
+branch to compare itself to what it thinks that the repository looks like. This
+helps to make sure that the master branch remains as current as possible, even if
+the branch is being stored offline.
+
